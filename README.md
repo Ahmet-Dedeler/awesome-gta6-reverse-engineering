@@ -121,6 +121,7 @@ Byte-level specifications, field confidence tables, and reproducible inspection 
 | [TrinitronClient/GTA6-Asset-Info](https://github.com/TrinitronClient/GTA6-Asset-Info) | 17-part asset format spec, `structure/` byte references + SixNG guide | Maintained by the SixNG team. Covers `RPF9`, resources/pages, texture dictionaries, Xbox tiling, `ttpf` (incl. array/cubemap layouts), `BCPack` codec types, models, map meta, placements, LOD parents, interiors, vehicle paint and tables, materials, shader names, collision, navmesh, lights, road graphs, PSO schema, RBF/BVH4, and `AWC`/`ADAT` audio. |
 | [oguzhanozfe/gta-vi-port-research](https://github.com/oguzhanozfe/gta-vi-port-research) | Xbox-to-PC research handbook | Markdown format documentation and reproducible Python file-inspection scripts in `tools/`. |
 | [frenzy42069/RPF9-tools](https://github.com/frenzy42069/RPF9-tools) | Byte-level `format_desc.md` + C/Python scripts | Detailed `RPF9` container geometry, PSIN checks, Bink2 range carving, and `ADAT` Opus extraction (`rpf9_extract_audio.c`). Ignore the satirical disclaimer in the README. |
+| [Ahmet-Dedeler/rage9-re](https://github.com/Ahmet-Dedeler/rage9-re) | `script.rpf` PSO script data and `anim.rpf` crAnimation channels | Rust + Python decoder with glTF 2.0 export, byte-level notes in `docs/`, tests on synthetic data only. |
 
 ---
 
@@ -168,6 +169,8 @@ Know an open-source RAGE 9 / RPF9 / GTA VI reverse engineering tool, library, or
 
 1. Check [CONTRIBUTING.md](CONTRIBUTING.md) to verify clean-room compliance and format guidelines.
 2. Open a pull request or [submit a project via the issue form](.github/ISSUE_TEMPLATE/submit-project.yml).
+
+Questions, or want to talk formats? [Join the Discord](https://discord.gg/reADpA6Cd).
 
 ## License
 

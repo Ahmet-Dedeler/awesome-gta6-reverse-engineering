@@ -128,6 +128,7 @@ Byte-level specifications, field confidence tables, and reproducible inspection 
 | [oguzhanozfe/gta-vi-port-research](https://github.com/oguzhanozfe/gta-vi-port-research) | Xbox-to-PC research handbook | Markdown format documentation and reproducible Python file-inspection scripts in `tools/`. |
 | [frenzy42069/RPF9-tools](https://github.com/frenzy42069/RPF9-tools) | Byte-level `format_desc.md` + C/Python scripts | Detailed `RPF9` container geometry, PSIN checks, Bink2 range carving, and `ADAT` Opus extraction (`rpf9_extract_audio.c`). Ignore the satirical disclaimer in the README. |
 | [Ahmet-Dedeler/rage9-re](https://github.com/Ahmet-Dedeler/rage9-re) | `script.rpf` PSO script data and `anim.rpf` crAnimation channels | Rust + Python decoder with glTF 2.0 export, byte-level notes in `docs/`, tests on synthetic data only. |
+| [SentinelInteractive/0x52504639](https://github.com/SentinelInteractive/0x52504639) | RPF9 / TTPF / BCPack research set with a measured corpus census | Maps the 64-byte `RPF9` header, both 16-byte tables and the trailer; records what the table cipher is *not* (the `NG` candidate ruled out over 25,856 trials); documents RDS5/ETPF chunk addressing, the BCPack entropy layer and the `0DRPz` placement layout. Aggregates only — no assets, keys or path dumps; ships a validator and a weekly snapshot workflow. |
 
 ---
 

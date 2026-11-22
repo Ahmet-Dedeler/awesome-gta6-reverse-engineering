@@ -32,7 +32,7 @@
 > **Clean-room research and open-source code only.** This list indexes reverse engineering tools, clean-room reimplementations, and format documentation. It does **not** host, link to, or endorse game executables, copyrighted assets, encryption keys, DRM bypass tools, or leaked build downloads. Every tool listed expects you to supply files from your own copy on disk.
 
 > [!CAUTION]
-> **There is no playable GTA VI for PC.** The circulating Xbox build has no game executable (`game_scarlett_master.exe` is missing), and no open-source project boots the game. Any "GTA 6 PC download", "Switch/PS5 emulator", installer, or prebuilt launcher `.exe` is fake at best and malware at worst. One public "launcher" template even ships a self-signed `CN=Rockstar Games, Inc.` certificate with its private key, so anyone can sign a malicious build with it. Expect a wave of fake "leaked executable" downloads in the coming days; a scam kit built around a fake installer is reportedly being sold. Build tools from source you have read.
+> **There is no playable GTA VI for PC.** The circulating Xbox build has no game executable (`game_scarlett_master.exe` is missing), and no open-source project boots the game. Any "GTA 6 PC download", "Switch/PS5 emulator", installer, or prebuilt launcher `.exe` is fake at best and malware at worst. One public "launcher" template even ships a self-signed `CN=Rockstar Games, Inc.` certificate with its private key, so anything signed with it shows Rockstar's name in the file's signature details (Windows still marks it untrusted). Expect a wave of fake "leaked executable" downloads in the coming days; a scam kit built around a fake installer is reportedly being sold. Build tools from source you have read.
 
 ---
 

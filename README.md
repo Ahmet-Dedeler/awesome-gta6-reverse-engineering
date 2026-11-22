@@ -18,6 +18,12 @@
 </p>
 
 <p align="center">
+  <a href="https://discord.gg/reADpA6Cd"><img src="https://img.shields.io/badge/Join%20the%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Discord" height="36" /></a>
+  <br />
+  <sub>Questions, previews, bug reports and format research. Come say hi.</sub>
+</p>
+
+<p align="center">
   <a href="#ecosystem-overview">Map</a> ·
   <a href="#rpf9-archive--asset-explorers">Archive Explorers</a> ·
   <a href="#texture-ttpf--audio-adat--awc-tools">Textures &amp; Audio</a> ·

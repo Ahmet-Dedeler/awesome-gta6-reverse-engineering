@@ -82,7 +82,7 @@ Focused decoders for RAGE 9 GPU-tiled texture packs (`.ttpf`, `BCPack`, `Gfx10` 
 
 ## Console Translation Layers & Static Recompilation
 
-Projects translating Xbox Series X|S (`Scarlett`) or PS5 system libraries, memory models, and RDNA2 shaders so console binaries can run natively on PC. The game's executable leaked on 2026-11-23 and several of these projects now start it. The furthest public result is xcl presenting frames whose content nobody has checked. **Nothing is playable.**
+Projects translating Xbox Series X|S (`Scarlett`) or PS5 system libraries, memory models, and RDNA2 shaders so console binaries can run natively on PC. The game's executable leaked on 2026-11-23 and several of these projects now start it. The furthest public result is VIctory reaching the menus and rendering the world at about one frame per second. **Nothing is playable.**
 
 | Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does and where it stands |
 | :--- | :--- |

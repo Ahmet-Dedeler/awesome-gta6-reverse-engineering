@@ -139,7 +139,7 @@ Standalone graphics and media tools built alongside GTA VI / RPF9 format explora
 - [Ahmet-Dedeler/bink-player-mac](https://github.com/Ahmet-Dedeler/bink-player-mac) (`Objective-C / macOS`) - Native macOS Bink2 (`.bk2`) video player, plus `tools/bk2mp4.sh` to convert `.bk2` to mp4 with video and all audio tracks using librempeg's open-source Bink 2 decoder (matched to RAD's output in [librempeg#217](https://github.com/librempeg/librempeg/pull/217) and [librempeg#218](https://github.com/librempeg/librempeg/pull/218), merged upstream), no RAD code.
 
 
-**See also:** [PortWatch VI](https://github.com/4lwayz/portwatch-vi), a daily tracker of the PC port efforts that also flags clone networks and re-uploads of tracked projects.
+**See also:** [PortWatch VI](https://github.com/4lwayz/portwatch-vi), a daily tracker of the PC port efforts that also flags clone networks and re-uploads of tracked projects, and [Does Leonida Boot?](https://doesleonidaboot.com/race), an automated 3-minute live telemetry tracker covering the Leonida boot chain alongside VIctory, XCL, Five Star Recomp, Xbox2Windows, and TuxBox (with public JSON, RSS, and `/llms.txt` feeds).
 
 ---
 

@@ -28,9 +28,6 @@
   <a href="#safety--scope">Safety &amp; Scope</a>
 </p>
 
-> [!WARNING]
-> **No playable GTA VI for PC exists.** Any download, installer, or launcher that says otherwise is fake or malware. [Details, and what this list will not link](#safety--scope).
-
 ## Ecosystem Overview
 
 Everything starts with an `RPF9` archive. Explorers open it, then each payload type has its own decoders. Most active work targets the Xbox Series X|S (Scarlett) RAGE 9 stack, since Xbox Series runs on x86-64 Zen 2 with RDNA2 (GFX10.3) shaders and a Windows-derived Game OS (`d3d12_xs`, `kernelx`). Early PS5 library-translation efforts exist as well.

@@ -1,15 +1,15 @@
 # Contributing to Awesome GTA VI Reverse Engineering
 
-Thanks for helping keep this index accurate, useful, and clean-room.
+Thanks for helping keep this index accurate and useful.
 
 ## Inclusion Rules
 
-Every entry must satisfy all of the following:
+Every entry should satisfy the following:
 
-1. **Real code or technical research:** The repository contains working tools, libraries, emulation/recompilation code, concrete byte-level format documentation, or useful developer reference data with actual commit history. Empty placeholders, single-file stubs, and vaporware repos are not accepted.
-2. **No leaks or malware:** Do not submit leaked game executables, pirated build downloads, or README-only repos shipping unverified binaries. Real open-source projects with public source code that also publish prebuilt releases are fine.
-3. **Accurate status:** Experimental runtimes, partial decoders, and early translation layers must state clearly what works and what does not yet boot.
-4. **No spam or malware bait:** No clickbait PC installers, cheat code sites, SEO farms, uncredited copies, or AI-slop wrapper pages.
+1. **Real code or useful research:** The repository contains working tools, libraries, runtime/recompilation work, format documentation, or helpful developer resources with actual commit history. Empty placeholders and vaporware stubs are not accepted.
+2. **No leaks or malware:** Do not submit leaked game executables, pirated build downloads, or README-only repos shipping unverified binaries.
+3. **Accurate status:** Experimental runtimes, partial decoders, and early translation layers should state clearly what works and what does not yet boot.
+4. **No spam or uncredited copies:** No clickbait installers, SEO farms, malware lures, or uncredited copies with no original work.
 
 ## Pull Request Format
 
@@ -18,3 +18,7 @@ Every entry must satisfy all of the following:
   `| **[Name](https://github.com/owner/repo)**&nbsp;<star badge><br><sub>Rust (`MIT`) · Windows</sub> | Description |` (copy a neighbouring row).
 - Keep descriptions to one to three sentences, concrete and free of hype: what the repo actually implements and what does not work yet. Version-by-version detail belongs in the project's own README.
 - Verify that the repository is public and actively accessible.
+
+## Affiliation & Notice
+
+This repository is an independent, community-maintained index of links and is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive. All trademarks and game titles belong to their respective owners. This repository does not host game binaries, builds, or copyrighted game files; every external repository is maintained by its own author. If you are a rights holder or project maintainer and want a link updated or removed, open an issue or contact the repository owner and it will be handled promptly.

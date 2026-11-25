@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Submit a clean-room, open-source project for inclusion in **Awesome GTA VI Reverse Engineering**.
-        Submissions containing copyrighted game files, encryption keys, or dump links will be closed immediately.
+        Submit a helpful GTA VI-related open-source project or research resource for **Awesome GTA VI Reverse Engineering**.
+        Submissions linking to leaked game executables, pirated builds, or spam/malware lures will be closed.
   - type: input
     id: repo_url
     attributes:
@@ -45,9 +45,9 @@ body:
   - type: checkboxes
     id: checks
     attributes:
-      label: Clean-room verification
+      label: Quick checks
       options:
-        - label: Repository contains real code or technical format docs (not an empty stub or placeholder)
+        - label: Repository contains real code, format docs, or useful resources (not an empty stub or placeholder)
           required: true
-        - label: Repository does not distribute game binaries, assets, encryption keys, or dump links
+        - label: Submission is not a leaked game executable, pirated build download, or spam/malware lure
           required: true

@@ -190,26 +190,25 @@ Quick reference for terms that show up across these repositories:
 ## Safety & Scope
 
 > [!IMPORTANT]
-> **Open-source tools, research, and references.** This list indexes reverse engineering tools, runtime layers, format documentation, and developer reference data. It does **not** host or link to the leaked game executable, pirated build downloads, or malware/scam launchers. Linked repositories are maintained by their own authors (check the source and build from source when in doubt).
+> **Links and index only.** This list indexes GTA VI-related open-source tools, runtime layers, format documentation, and community resources. This repository hosts no game executables or build downloads; linked projects are maintained by their own authors.
 
 > [!CAUTION]
-> **There is no playable GTA VI for PC.** The game executable (`game_scarlett_master.exe`) leaked on 2026-11-23. Several open-source runtimes now start it, reach its menus and opening cutscene, and draw the 3D world in the opening mission (with a few `VIctory` forks clearing the prologue into the next mission) at single-digit frames per second with missing ray-traced lighting and driver faults, but none is playable. This list does not link the executable. If you run it yourself, block its network access first: its crash reporter uploads a memory dump from your IP on every crash. Any "GTA 6 PC download", "Switch/PS5 emulator", "companion toolkit", installer, or prebuilt launcher `.exe` is fake at best and malware at worst. One public "launcher" template even ships a self-signed `CN=Rockstar Games, Inc.` certificate with its private key, so anything signed with it shows Rockstar's name in the file's signature details (Windows still marks it untrusted). Fake "leaked executable", launcher, and star-boosted companion-zip downloads are circulating, and a scam kit built around a fake installer is reportedly being sold. Build tools from source you have read. For how one of these fakes works, [Cyberleek-Gta6-Malware](https://github.com/Justyyin/Cyberleek-Gta6-Malware) is a write-up (with an English edition in `en/ANALYSIS.md`) of the October 2026 fake "Cyberleek Launcher" with defanged indicators, the defanged script text and untested detection rules (no working sample hosted).
+> **There is no playable GTA VI for PC.** The game executable (`game_scarlett_master.exe`) leaked on 2026-11-23. Several open-source runtimes now start it, reach its menus and opening cutscene, and draw the 3D world in the opening mission (with a few `VIctory` forks clearing the prologue into the next mission) at single-digit frames per second with missing ray-traced lighting and driver faults, but none is playable. This list does not link the executable. If you run it yourself, block its network access first: its crash reporter uploads a memory dump from your IP on every crash. Fake downloads and scam launchers are circulating too (including a public template that ships a self-signed `CN=Rockstar Games, Inc.` certificate with its private key, plus star-boosted companion-zip lures), so read the source and check what you run. For an example of how these fakes work, [Cyberleek-Gta6-Malware](https://github.com/Justyyin/Cyberleek-Gta6-Malware) is a write-up (with an English edition in `en/ANALYSIS.md`) of the October 2026 fake "Cyberleek Launcher" with defanged indicators and script text.
 
-### Inclusion Criteria & Exclusions
+### Inclusion Criteria
 
-To keep this directory useful and safe, projects are audited before being added:
+Projects are checked before being added so the list stays useful and safe:
 
-- **Included:** Real working code, libraries, format specs, active runtime/translation research, and useful developer reference data backed by actual commits. Open-source projects that also ship prebuilt releases alongside their source code are fine.
-- **Excluded:** Empty placeholder repos (0 commits / empty tree), leaked game executables or pirated build downloads, cheat-code / wallpaper hubs, `make.fun` bounty/meme repos, and clickbait "100% playable GTA 6 PC port" or malware-bait repositories.
-- **Also excluded:** the dozens of identical `GTA-6-Switch-Version--PC-Emulator-2026` / "PC installer hub" repos, fake or Rockstar-branded launchers (including ones signed with a fake `Rockstar Games, Inc.` certificate), README-only "recomp" repos with a release attached, and uncredited or renamed copies of projects already listed (the original is linked instead).
+- **Included:** Helpful GTA VI-related projects with real code, libraries, runtime work, format research, or developer resources backed by actual commits.
+- **Excluded:** Empty placeholder repos, leaked game executables or pirated build downloads, spam/clickbait/malware-bait repos (fake Switch/PS5 emulator farms, fake Rockstar-signed launchers, README-only repos with a release attached), and uncredited copies with no original work.
 
 ---
 
 ## Contributing
 
-Know an open-source RAGE 9 / RPF9 / GTA VI reverse engineering tool, library, or format writeup that belongs here?
+Know a helpful GTA VI / RAGE 9 / RPF9 tool, library, or research repo that belongs here?
 
-1. Check [CONTRIBUTING.md](CONTRIBUTING.md) to verify clean-room compliance and format guidelines.
+1. Check [CONTRIBUTING.md](CONTRIBUTING.md) for format guidelines.
 2. Open a pull request or [submit a project via the issue form](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/new?template=submit-project.yml).
 
 Questions, or want to talk formats? [Join the Discord](https://discord.gg/CjcDBg3nf).

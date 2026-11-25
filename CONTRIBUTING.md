@@ -6,10 +6,10 @@ Thanks for helping keep this index accurate, useful, and clean-room.
 
 Every entry must satisfy all of the following:
 
-1. **Real code or technical research:** The repository contains working tools, libraries, emulation/recompilation code, or concrete byte-level format documentation with actual commit history. Empty placeholders, single-file stubs, and vaporware repos are not accepted.
-2. **Clean-room only:** No copyrighted game binaries, extracted raw game assets/strings, encryption keys, DRM circumvention utilities, or links to pirated/leaked downloads.
+1. **Real code or technical research:** The repository contains working tools, libraries, emulation/recompilation code, concrete byte-level format documentation, or useful developer reference data with actual commit history. Empty placeholders, single-file stubs, and vaporware repos are not accepted.
+2. **No leaks or malware:** Do not submit leaked game executables, pirated build downloads, or README-only repos shipping unverified binaries. Real open-source projects with public source code that also publish prebuilt releases are fine.
 3. **Accurate status:** Experimental runtimes, partial decoders, and early translation layers must state clearly what works and what does not yet boot.
-4. **No spam or malware bait:** No clickbait PC installers, cheat code sites, SEO farms, or AI-slop wrapper pages.
+4. **No spam or malware bait:** No clickbait PC installers, cheat code sites, SEO farms, uncredited copies, or AI-slop wrapper pages.
 
 ## Pull Request Format
 
